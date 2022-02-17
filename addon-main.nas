@@ -74,7 +74,7 @@ var main = func( addon ) {
         
         # Logic to calculate final state
         var checkTimer = maketimer(1, func(){
-            print("Addon NoGroundDamage checkTimer: onground_prop="~onground_prop.getValue()~"; speed_prop="~speed_prop.getValue());
+            #print("Addon NoGroundDamage checkTimer: onground_prop="~onground_prop.getValue()~"; speed_prop="~speed_prop.getValue());
             if (onground_prop.getValue() and !speed_prop.getValue()) {
                 setprop("/fdm/jsbsim/settings/damage", 0);
             } else {

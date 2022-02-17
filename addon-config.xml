@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PropertyList>
+    
+    <addons>
+        <by-id>
+            <org.hallinger.flightgear.NoGroundDamage>
+                <speed-reached type="bool">false</speed-reached>
+                <onground type="bool">false</onground>
+            </org.hallinger.flightgear.NoGroundDamage>
+        </by-id>
+    </addons>
+    
+</PropertyList>
